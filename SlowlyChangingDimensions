@@ -1,0 +1,22 @@
+Ref: https://www.1keydata.com/datawarehousing/slowly-changing-dimensions-type-3.html
+
+Slowly changing diensions or SCD is keeping track of changes in dimensions attributes.
+
+Below are types of SCD
+SCD Type 1 - Here we don't keep any historical records & we keep only updated records or we directly update the records.
+SCD Type 2 - Here we keep track of changes in rows . Means if any attribute or column is changed then we'll create a new row for that change.
+SCD Type 3 - Here we keep the changes in columns. Means we use additional column to keep track of new change and the change date.
+Eg-
+
+Person_Details      
+Name,age,state
+
+
+SCD Type 3 - Person_Details
+Name,age,Original State,Current State,Effective date
+
+Note- In SCD Type 3 ine records are updated & there is limit to keep history. Benifit of SCD Type 3 is table size will not increase since the records are updated.
+      Also we'll have some part of history stored in table.
+      Disadvantage is we'll lost the old data once it's updated. It's been rearly used in industry.
+      
+      
