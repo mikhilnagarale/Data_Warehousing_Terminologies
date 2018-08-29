@@ -1,0 +1,37 @@
+
+--------------------------
+#1.Things to consider while creating the Data Ingestion Pipeline-
+
+Sources 
+Real-Time
+Batch
+
+--------------------------
+
+
+
+
+
+--------------------------
+#2.Things to consider while designing the Data Model-
+
+Business Scenario
+Granularity
+Hierarchy
+Dimensions
+Facts
+Attributes
+metrics
+KPI
+Data Model
+
+-------------------------
+#3.Things to consider while creating aggregation layer queries and- 
+
+Storage 
+Time for processing
+Time to fetch result
+
+-------------------------
+
+
